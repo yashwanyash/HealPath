@@ -1,22 +1,34 @@
+# HealPath NGO – Mini Healthcare Support Web App
 
-# HealPath NGO - Mini Healthcare Support Web App
+## Project Overview
+HealPath is a concept-level healthcare support web app created for NGOs.  
+It allows users to submit health-related concerns and receive instant automated feedback, helping NGOs respond more efficiently.
 
-## Project Purpose
-HealPath is a concept-level medical support portal designed for Non-Governmental Organizations (NGOs). Its primary goal is to provide a bridge between underprivileged communities and volunteer medical professionals. By offering a digital intake form, the app streamlines the triage process for health concerns in areas with limited medical access.
+---
 
-## Tech Stack Used
-- **React **: Chosen for its robust state management and component-based architecture, ensuring the app is scalable and maintainable.
-- **TypeScript**: Used to ensure type safety, particularly for handling patient data and symptom mapping.
-- **Tailwind CSS**: Utilized for a clean, modern, and professional aesthetic that feels trustworthy for a healthcare environment.
-- **FontAwesome**: Used for intuitive iconography that enhances user accessibility.
+## Tech Stack
+- React
+- TypeScript
+- Vite
+- CSS
 
-## AI Automation Idea
-The app features a "Smart Detection" system (mocked for this concept). 
-- **Mechanism**: The system scans the "Symptoms" input field in real-time for specific clinical keywords (e.g., *fever*, *chest pain*, *cough*).
-- **Benefit**: It provides immediate, contextualized feedback to the patient. For example, if "chest pain" is detected, the UI instantly warns the user that this could be critical and suggests emergency action. This helps filter cases and provides immediate peace of mind or urgency when most needed.
+---
 
-## How this helps an NGO
-1. **Resource Prioritization**: By automatically tagging symptoms, the NGO can sort incoming requests by severity, ensuring emergency cases aren't buried under minor queries.
-2. **Data Collection**: It creates a structured digital record of community health trends without requiring expensive custom software.
-3. **Accessibility**: The mobile-responsive design ensures that people with limited technology (primarily smartphones) can easily access support from anywhere.
-4. **Professionalism**: A modern, clean interface builds trust with both patients and potential donors/volunteers.
+## AI / Automation Idea
+The app includes an AI-inspired symptom detection feature:
+- User-entered symptoms are scanned for common keywords (fever, cough, headache, chest pain, etc.).
+- Based on detected keywords, the app generates an automatic summary and basic guidance.
+- This simulates an AI healthcare assistant using simple rule-based logic (no external AI API).
+
+---
+
+## NGO Use Case
+- Helps NGOs collect patient support requests digitally.
+- Provides quick symptom summaries for faster triage.
+- Reduces manual effort for volunteers.
+- Works well on mobile devices.
+
+---
+
+## Note
+This project is built at a concept level to demonstrate clarity of thought, frontend skills, and basic automation logic.
